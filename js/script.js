@@ -10,6 +10,11 @@ const contaBonificada = new ContaBonificada('10', 100);
 contaBonificada.creditar(10);
 console.log(contaBonificada.saldo);
 
+const poupanca = new Poupanca('20', 200, '02/03/2004');
+console.log(poupanca.dataAniversario);
+
+poupanca.dataAniversario = '05/04/2003';
+console.log(poupanca.dataAniversario);
 
 // const repContas = new RepositorioContas();
 //
