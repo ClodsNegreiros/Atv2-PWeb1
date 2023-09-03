@@ -48,12 +48,9 @@ class ContaController {
         
         if (elementoSelectContas.value == 'contaBonificada') {
             this.tipoConta = ' Bonificada ';
-            console.log(this.tipoConta);
         } else if (elementoSelectContas.value == 'poupanca') {
             this.tipoConta = ' Poupança ';
-            console.log(this.tipoConta);
         } else {
-            console.log(this.tipoConta);
             this.tipoConta = '';
         }
 
